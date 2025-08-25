@@ -1,0 +1,11 @@
+name: hikmatkhan
+
+services:
+  node:
+    type: node:20
+    command: npm run dev
+    port: 8080
+
+tooling:
+  npm:
+    service: node
